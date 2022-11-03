@@ -1,0 +1,13 @@
+all:
+
+push:
+	go push git@github.com:RB-PRO/theGO_AlanDonovanBrian.git
+
+pull:
+	go pull git@github.com:RB-PRO/theGO_AlanDonovanBrian.git
+
+pushw:
+	go push https://github.com/RB-PRO/theGO_AlanDonovanBrian.git
+
+pullw:
+	go pull https://github.com/RB-PRO/theGO_AlanDonovanBrian.git

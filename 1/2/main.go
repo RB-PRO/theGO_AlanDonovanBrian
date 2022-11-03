@@ -7,7 +7,10 @@ import (
 )
 
 func main() {
+	var s string
+	var sep string = "\n"
 	for i := 0; i < len(os.Args); i++ {
-		fmt.Println(strconv.Itoa(i), " ", os.Args[i])
+		s += strconv.Itoa(i) + " " + os.Args[i] + sep
 	}
+	fmt.Println(s)
 }
