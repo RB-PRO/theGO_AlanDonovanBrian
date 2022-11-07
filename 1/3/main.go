@@ -1,5 +1,9 @@
 package main
 
+/*
+go run 1/3/main.go a b c d
+*/
+
 import (
 	"fmt"
 	"os"
