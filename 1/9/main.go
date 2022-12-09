@@ -1,7 +1,7 @@
 package main
 
 /*
-go run 1/9/main.go http://www.labnet.ru/
+go run 1/9/main.go http://www.labnet.ru/ https://pkg.go.dev/std https://pkg.go.dev/github.com/Azure/go-autorest/autorest https://pkg.go.dev/net/http
 */
 
 import (
